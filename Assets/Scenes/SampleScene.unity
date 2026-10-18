@@ -1,0 +1,1129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 7416536dbe0334cfd888dd1beb75a9fb, type: 2}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!4 &36218669 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4077276480442112455, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &180680583 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3770265578673604377, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &210187514 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &223113211 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6421295654667721629, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &282664151 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6594369531902491312, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &330585543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 330585546}
+  - component: {fileID: 330585545}
+  - component: {fileID: 330585544}
+  - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &330585544
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+--- !u!20 &330585545
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &330585546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &330585547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b375afbae5b52194699c69c819ebbf71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrbitAroundModel
+  target: {fileID: 1547104635}
+  separator: {fileID: 0}
+  distance: 2
+  minDistance: 2
+  maxDistance: 45
+  zoomSpeed: 4
+  fitPadding: 1.3
+  startCloseUp: 0.7
+  rotateSpeed: 1
+  minPitch: -89
+  maxPitch: 89
+  autoRotate: 1
+  autoRotateSpeed: 8
+  resumeDelay: 2
+  clickToFocus: 1
+  makeClickable: 1
+  focusSmoothness: 6
+  showPartName: 1
+  showControls: 1
+  showZoomSlider: 1
+  wholeEngineName: Jet Engine
+  nameFontSize: 48
+  controlsFontSize: 22
+  sliderLabelFontSize: 24
+  showInfoButton: 1
+  wholeEngineDetails: 
+  detailsFontSize: 26
+  boxWidth: 650
+  autoBoxHeight: 1
+  boxHeight: 350
+  maxBoxHeight: 750
+  openOnStart: 0
+  smoothness: 12
+--- !u!1 &410087039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410087041}
+  - component: {fileID: 410087040}
+  - component: {fileID: 410087042}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &410087040
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  m_Enabled: 1
+  serializedVersion: 12
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 2
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize2D: {x: 10, y: 10}
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 5000
+  m_UseColorTemperature: 1
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &410087041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &410087042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 1
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
+--- !u!4 &423221348 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1981250323614324751, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &467457527 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 525653203388974227, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &583067565 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3957784421598432276, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &587315481 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3445801928901789636, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &796728707 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6813533296112450698, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &832575517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 832575519}
+  - component: {fileID: 832575518}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &832575518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832575517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
+--- !u!4 &832575519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832575517}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &851139430 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -651836343222453824, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &984305123 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1066023046318011155, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1062282355 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1380415228240034403, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1125073913 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5963616507527624792, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1167786624 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1275110839632312964, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1267315584 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4037525203558822113, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1320814151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1320814153}
+  - component: {fileID: 1320814152}
+  m_Layer: 0
+  m_Name: EngineSeparator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1320814152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320814151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e96e636a5ef5c40861e2ef3e5e4ced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnginePartSeparator
+  parts:
+  - label: Inlet Duct
+    details: The inlet duct directs incoming air smoothly from the engine entrance
+      toward the fan or compressor. It helps maintain uniform airflow, minimizes
+      turbulence and pressure losses, and ensures the engine receives sufficient
+      air for efficient operation under different flight conditions.
+    target: {fileID: 282664151}
+    distance: 6.3
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Intermediate Duct
+    details: The intermediate duct connects sections of the engine, guiding airflow
+      between components while maintaining suitable pressure and velocity. Depending
+      on its location, it may also provide space for structural supports, shafts,
+      or accessories without significantly disrupting the airflow.
+    target: {fileID: 223113211}
+    distance: 4
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Compressor blade 1
+    details: Compressor blades progressively increase the pressure of incoming air
+      by transferring mechanical energy from the rotating compressor shaft to the
+      airflow. Multiple blade stages work together to achieve high compression efficiently,
+      supplying pressurized air to the combustion chamber for effective fuel burning.
+    target: {fileID: 1843985401}
+    distance: 2.5
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Compressor blade 2
+    details: Compressor blades progressively increase the pressure of incoming air
+      by transferring mechanical energy from the rotating compressor shaft to the
+      airflow. Multiple blade stages work together to achieve high compression efficiently,
+      supplying pressurized air to the combustion chamber for effective fuel burning.
+    target: {fileID: 1125073913}
+    distance: 2.4
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Compressor blade 3
+    details: Compressor blades progressively increase the pressure of incoming air
+      by transferring mechanical energy from the rotating compressor shaft to the
+      airflow. Multiple blade stages work together to achieve high compression efficiently,
+      supplying pressurized air to the combustion chamber for effective fuel burning.
+    target: {fileID: 1167786624}
+    distance: 2.3
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Compressor blade 4
+    details: Compressor blades progressively increase the pressure of incoming air
+      by transferring mechanical energy from the rotating compressor shaft to the
+      airflow. Multiple blade stages work together to achieve high compression efficiently,
+      supplying pressurized air to the combustion chamber for effective fuel burning.
+    target: {fileID: 984305123}
+    distance: 2.2
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Compressor blade 5
+    details: Compressor blades progressively increase the pressure of incoming air
+      by transferring mechanical energy from the rotating compressor shaft to the
+      airflow. Multiple blade stages work together to achieve high compression efficiently,
+      supplying pressurized air to the combustion chamber for effective fuel burning.
+    target: {fileID: 587315481}
+    distance: 2.1
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Compressor blade 6
+    details: Compressor blades progressively increase the pressure of incoming air
+      by transferring mechanical energy from the rotating compressor shaft to the
+      airflow. Multiple blade stages work together to achieve high compression efficiently,
+      supplying pressurized air to the combustion chamber for effective fuel burning.
+    target: {fileID: 1267315584}
+    distance: 2
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Compressor blade 7
+    details: Compressor blades progressively increase the pressure of incoming air
+      by transferring mechanical energy from the rotating compressor shaft to the
+      airflow. Multiple blade stages work together to achieve high compression efficiently,
+      supplying pressurized air to the combustion chamber for effective fuel burning.
+    target: {fileID: 1345716048}
+    distance: 1.9
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Nozzle
+    details: The nozzle directs exhaust gases out of the engine at high velocity,
+      converting available pressure and thermal energy into directed momentum. This
+      produces thrust, propelling the aircraft forward. Its design influences engine
+      efficiency and performance across different operating conditions and flight
+      speeds.
+    target: {fileID: 1978502106}
+    distance: -4
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Fan Rotor
+    details: It directs some air into the engine core while accelerating bypass air
+      around it, producing a significant proportion of the engine's total thrust.
+    target: {fileID: 851139430}
+    distance: 6
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Turbine Rotor Blade 1
+    details: Turbine rotor blades extract energy from hot, high-pressure gases leaving
+      the combustion chamber. This energy rotates the turbine shaft, which drives
+      the compressor and, in turbofan engines, may also drive the fan. Multiple turbine
+      stages efficiently extract the energy required for operation.
+    target: {fileID: 1978521944}
+    distance: -3.5
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Turbine Rotor Blade 2
+    details: Turbine rotor blades extract energy from hot, high-pressure gases leaving
+      the combustion chamber. This energy rotates the turbine shaft, which drives
+      the compressor and, in turbofan engines, may also drive the fan. Multiple turbine
+      stages efficiently extract the energy required for operation.
+    target: {fileID: 583067565}
+    distance: -3.6
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Central Shaft
+    details: The central shaft connects the turbine rotor to the compressor and transfers
+      mechanical power between them. Hot exhaust gases rotate the turbine, which
+      drives the shaft and powers the compressor. Some jet engines use multiple concentric
+      shafts to independently drive different compressor and fan stages.
+    target: {fileID: 36218669}
+    distance: 0.3
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Turbine Rotor Blade 3
+    details: Turbine rotor blades extract energy from hot, high-pressure gases leaving
+      the combustion chamber. This energy rotates the turbine shaft, which drives
+      the compressor and, in turbofan engines, may also drive the fan. Multiple turbine
+      stages efficiently extract the energy required for operation.
+    target: {fileID: 796728707}
+    distance: -3.7
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Turbine Rotor Blade 4
+    details: Turbine rotor blades extract energy from hot, high-pressure gases leaving
+      the combustion chamber. This energy rotates the turbine shaft, which drives
+      the compressor and, in turbofan engines, may also drive the fan. Multiple turbine
+      stages efficiently extract the energy required for operation.
+    target: {fileID: 423221348}
+    distance: -3.8
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: 'Nacelle '
+    details: The nacelle is the aerodynamic outer housing surrounding an aircraft
+      engine. It reduces drag, helps guide incoming and bypass airflow, and provides
+      structural integration with the aircraft. Depending on the design, it includes
+      an inlet, outer cowling, access panels, and exhaust-related structures.
+    target: {fileID: 2009784398}
+    distance: 0
+    extraOffset: {x: 2, y: 0, z: 0}
+  - label: Perforated Cylindrical Section
+    details: A perforated cylindrical section contains numerous openings that allow
+      air to pass through its walls. If it is a combustor liner, these openings supply
+      combustion and cooling air, help stabilize the flame, and regulate gas temperatures
+      before the hot gases enter the turbine.
+    target: {fileID: 180680583}
+    distance: -2.3
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Spinner
+    details: The spinner is a rounded or cone-shaped component mounted at the centre
+      of the engine's front fan or compressor. It helps guide incoming air smoothly
+      around the central hub, reducing airflow disruption. It also covers the hub
+      and provides a streamlined aerodynamic profile.
+    target: {fileID: 1062282355}
+    distance: 6.7
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Exhaust Cone
+    details: The exhaust cone is a tapered component positioned within or near the
+      rear exhaust section of certain jet engines. It helps guide exhaust gases and
+      maintain a suitable flow passage. In some designs, it also supports the central
+      structure and reduces unwanted flow disturbances.
+    target: {fileID: 1556499325}
+    distance: -2
+    extraOffset: {x: 0, y: 0, z: 0}
+  - label: Turbine Rotor Casing
+    details: The turbine rotor casing surrounds and supports the turbine assembly,
+      maintaining the required clearances between rotating blades and stationary
+      structures. It helps contain operating loads, supports internal components,
+      and forms part of the gas-flow passage while withstanding the turbine's demanding
+      thermal and mechanical conditions.
+    target: {fileID: 467457527}
+    distance: -0.9
+    extraOffset: {x: 0, y: 0, z: 0}
+  explodeAxis: {x: 0, y: 0, z: 1}
+  axisReference: {fileID: 1320814153}
+  smoothness: 6
+  autoSpacing: 1
+--- !u!4 &1320814153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320814151}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1345716048 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8607532847223267318, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1547104634
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -9158594273352002088, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ca37e532b8818a04f8edf619b9b03406, type: 2}
+    - target: {fileID: -9067619330395318913, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58548595ff07d8349bc71fd9781e1c47, type: 2}
+    - target: {fileID: -8989868488718376594, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a9757a1ecca5e1f4d9233aa877661d74, type: 2}
+    - target: {fileID: -8679921383154817045, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.057
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.018
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8423060090395505026, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a9757a1ecca5e1f4d9233aa877661d74, type: 2}
+    - target: {fileID: -6583686962480284938, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8032435d047a87241b64aa3684870747, type: 2}
+    - target: {fileID: -5891207383256067345, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58548595ff07d8349bc71fd9781e1c47, type: 2}
+    - target: {fileID: -5857874598064961339, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58548595ff07d8349bc71fd9781e1c47, type: 2}
+    - target: {fileID: -5742072048952545077, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: af5f76c607563164bb04f952a4f15d6c, type: 2}
+    - target: {fileID: -5611111849837932425, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58548595ff07d8349bc71fd9781e1c47, type: 2}
+    - target: {fileID: -5599502568077982231, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58548595ff07d8349bc71fd9781e1c47, type: 2}
+    - target: {fileID: 481348598989797737, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58548595ff07d8349bc71fd9781e1c47, type: 2}
+    - target: {fileID: 919132149155446097, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: m_Name
+      value: turbofan-cutaway
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487860436508725885, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58548595ff07d8349bc71fd9781e1c47, type: 2}
+    - target: {fileID: 2690716490853399712, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58548595ff07d8349bc71fd9781e1c47, type: 2}
+    - target: {fileID: 3558626887219662892, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58548595ff07d8349bc71fd9781e1c47, type: 2}
+    - target: {fileID: 4900988274813975674, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ca37e532b8818a04f8edf619b9b03406, type: 2}
+    - target: {fileID: 5445795913330492347, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58548595ff07d8349bc71fd9781e1c47, type: 2}
+    - target: {fileID: 5492019549592052683, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c58f69fbadc3f514da8b45a9a7b485b6, type: 2}
+    - target: {fileID: 5609580097993064517, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58548595ff07d8349bc71fd9781e1c47, type: 2}
+    - target: {fileID: 5864811332073785872, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8032435d047a87241b64aa3684870747, type: 2}
+    - target: {fileID: 7882446918126931678, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a9757a1ecca5e1f4d9233aa877661d74, type: 2}
+    - target: {fileID: 8156188822241132769, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58548595ff07d8349bc71fd9781e1c47, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1547104636}
+  m_SourcePrefab: {fileID: 100100000, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+--- !u!4 &1547104635 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1547104636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210187514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4f4d9b2b302ce941830d348e5ca07ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EngineUI
+  engineSpin: {fileID: 0}
+  separator: {fileID: 0}
+  startLabel: Start Engine
+  stopLabel: Stop Engine
+  separateLabel: Separate Parts
+  assembleLabel: Assemble Parts
+  startColor: {r: 0.15, g: 0.6, b: 0.25, a: 1}
+  stopColor: {r: 0.8, g: 0.2, b: 0.2, a: 1}
+  separateColor: {r: 0.2, g: 0.4, b: 0.8, a: 1}
+  buttonFontSize: 34
+--- !u!4 &1556499325 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3549815735976158465, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1843985401 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3520364897922521879, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1978502106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4757809674973973658, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1978521944 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1334034930465701616, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2009784398 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 830297859829160243, guid: e310090e65d5f1e42a09f48c22899518, type: 3}
+  m_PrefabInstance: {fileID: 1547104634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2048386736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2048386737}
+  - component: {fileID: 2048386738}
+  m_Layer: 0
+  m_Name: EngineSpin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2048386737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048386736}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.57071, y: -0, z: -0.48975}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2048386738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048386736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aafce0a7269340747b1bfa8e47495896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EngineSpin
+  fan:
+    name: Fan (big, front)
+    parts:
+    - {fileID: 851139430}
+    speed: 360
+    clockwise: 1
+    pivotOverride: {fileID: 0}
+  compressor:
+    name: Compressor (small, middle)
+    parts:
+    - {fileID: 1843985401}
+    - {fileID: 1125073913}
+    - {fileID: 1167786624}
+    - {fileID: 984305123}
+    - {fileID: 587315481}
+    - {fileID: 1267315584}
+    - {fileID: 1345716048}
+    speed: 900
+    clockwise: 1
+    pivotOverride: {fileID: 0}
+  turbine:
+    name: Turbine (normal, rear)
+    parts:
+    - {fileID: 1978521944}
+    - {fileID: 583067565}
+    - {fileID: 36218669}
+    - {fileID: 796728707}
+    - {fileID: 423221348}
+    speed: 600
+    clockwise: 1
+    pivotOverride: {fileID: 0}
+  axis: 2
+  engineOn: 0
+  startSound: {fileID: 8300000, guid: d45ab1cd44bfa9a429f0082578bcb278, type: 3}
+  runningSound: {fileID: 8300000, guid: 408825bdd94775643b5880525866f184, type: 3}
+  stopSound: {fileID: 8300000, guid: 87787a73f3abd2d4f9001381fa9f6e92, type: 3}
+  volume: 0.1
+  useClipLengths: 1
+  startFallbackSeconds: 18
+  runningFallbackSeconds: 19
+  stopFallbackSeconds: 20
+  crossfade: 1
+--- !u!1 &2101309697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2101309698}
+  - component: {fileID: 2101309699}
+  m_Layer: 0
+  m_Name: EngineUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2101309698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101309697}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.57071, y: -0, z: -0.48975}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2101309699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101309697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4f4d9b2b302ce941830d348e5ca07ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EngineUI
+  engineSpin: {fileID: 0}
+  separator: {fileID: 0}
+  startLabel: Start Engine
+  stopLabel: Stop Engine
+  separateLabel: Separate Parts
+  assembleLabel: Assemble Parts
+  startColor: {r: 0.15, g: 0.6, b: 0.25, a: 1}
+  stopColor: {r: 0.8, g: 0.2, b: 0.2, a: 1}
+  separateColor: {r: 0.2, g: 0.4, b: 0.8, a: 1}
+  buttonFontSize: 34
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 330585546}
+  - {fileID: 410087041}
+  - {fileID: 832575519}
+  - {fileID: 1547104634}
+  - {fileID: 2101309698}
+  - {fileID: 2048386737}
+  - {fileID: 1320814153}
